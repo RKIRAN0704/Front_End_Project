@@ -1,0 +1,252 @@
+/*************************************
+** Author: Mofid Ansari (ansarimofid)
+** Website: http://ansarimofid.in
+** Email: ansarimofid@gmail.com
+**************************************/
+
+/*Primary Color:rgb(15,108,107)*/
+/*Secondary Color:rgb(50,50,50)*/
+/*Grey:rgb(240,240,240)*/
+/*Green:rgb(163,169,72)*/
+/* wrapper-width:700px */
+
+
+
+/***************
+*General Styles
+****************/
+
+.primary-color{
+	color:rgb(15,108,107) !important;
+}
+
+strong{
+	font-weight: bold;
+}
+
+html,body{
+	height: 100%;
+}
+
+body{
+	font-family: 'Oxygen',sans-serif;
+	min-height: 100%;
+}
+
+li[name="list"]
+{
+	cursor: zoom-out;
+	border-bottom:groove;
+	
+}
+
+/***************
+*Wrappers
+****************/
+
+.wrapper{
+	min-height: 100vh;
+	display: flex;
+    flex-direction: column;
+}
+
+.header-wrapper,.footer-wrapper,.contents-wrapper{
+	margin: 0 auto;
+	max-width: 800px;
+}
+
+.contents-wrapper{
+	margin-top: 3rem;
+	margin-bottom: 2rem;
+	flex:1;
+	line-height: 1.5;
+	font-size: 16px;
+}
+
+.contents-wrapper .content{
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+
+
+
+/***************
+*Header Styles
+****************/
+
+nav{
+	background-color:rgb(15,108,107);
+}
+
+/* Navbar */
+
+.dropdown-submenu {
+    position: relative;
+}
+/*.....*/
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+	
+	
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-style: normal;
+	
+	background-color: rgb(241, 241, 241);
+    display: block;
+	border-color: blue;
+	border-inline-color:inherit;
+	border-radius: 0%;
+
+	
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+   float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #f8f8f8;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #f8f8f8;
+	
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+/*    */
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+	
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
+	background-color: rgba(8, 8, 8, 0.2);
+}
+
+.navbar-custom{
+	background-color: rgb(12, 40, 89);
+	border: 0;
+	margin-bottom: 0;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+	color: rgba(255, 255, 255, 0.9);
+	line-height: 1.2;
+}
+
+.navbar-nav > li{
+	margin:0  10px;
+}
+
+.navbar-inverse .navbar-toggle{
+	border:0;
+}
+
+.top-margin-50px {
+    margin-top: 50px;
+}
+.bottom-margin-50px {
+    margin-bottom: 50px;
+}
+
+nav .nav-wrapper{
+	text-align: center;
+}
+.nav-custom{
+	display: inline-block;
+}
+
+.nav-custom > li{
+	padding: 0 1rem;
+}
+
+nav ul li{
+	margin: 0 1em;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus{
+	background-color: rgb(150, 24, 24);
+}
+
+.header-container{
+	display: flex;
+	align-items:flex-end;
+	justify-content: space-between;
+	margin: 0.4rem 0;
+}
+
+#dropdown1{
+	overflow: hidden;
+}
+
+.logo-name{
+	display: flex;
+	align-items:center;
+	margin-left: 2rem;
+}
+
+.logo-name .name h5{
+	font-weight: bold;
+	font-size: 2.3rem;
+	text-decoration: none;
+	color: rgb(50,50,50);
+}
+
+.logo-name .name a:hover{
+	text-decoration: none;
+}
+
+.logo-name .name{
+	margin-left: 1rem;
+}
+
+.logo-name .name h5:nth-child(1){
+	margin-bottom: 0.3rem;
+}
+
+.logo-name .name h5:nth-child(2){
+	margin-top: 0.1rem;
+}
+
+.logo-name .logo img{
+	width: 100px;
+}
+
+.header-links{
+	margin-right: 2rem;
+    margin-bottom: 2.2rem;
+}
+
+.header-links a {
+	cursor:pointer;
+	margin:0 0.75rem;
+	color: inherit;
+}
+
+.header-links a:hover,.header-links a:focus{
+	color: inherit;
+	opacity: 0.9;
+}
+
